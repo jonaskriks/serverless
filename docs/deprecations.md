@@ -17,6 +17,14 @@ disabledDeprecations:
   - '*' # To disable all deprecation messages
 ```
 
+<a name="MISSING_SERVICE_CONFIGURATION'"><div>&nbsp;</div></a>
+
+## `Serverless` constructor `config.configuration` requirement
+
+Deprecation code: `MISSING_SERVICE_CONFIGURATION`
+
+`Serverless` constructor was refactored to depend on service configuration being resolved externally and passed to its constructor with `config.configurationPath`. Starting from v3.0.0 configuration will not be resolved internally.
+
 <a name="MISSING_SERVICE_CONFIGURATION_PATH'"><div>&nbsp;</div></a>
 
 ## `Serverless` constructor `config.configurationPath` requirement
